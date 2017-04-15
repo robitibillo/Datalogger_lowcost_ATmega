@@ -95,6 +95,6 @@ time.php: solo devuelve la hora según una región fijada.
 
 datos.php: comprueba si en el servidor existe el fichero y dive el código en dos partes. La primera(no existe) simplemente crea el fichero y escribe la línea de datos, la segunda(existe) además lee la primera línea del fichero, para comprobar si es igual a los datos que le llegan(puede darse esta situación en el caso de que no existiera en la SD por un cambio de tarjeta y se halla enviado la línea de nombres) y no hacer nada. Además, esta crea un array con los datos divididos, ya que se envían todos juntos en la petición GET, divididos por "," y por último se construye una url en formato tipo json junto con la apikey que te permite escribir datos dentro de emonCMS.
 
-Con esto finalizo la explicación. Espero haberme explicado de la forma más clara posible, en caso contrario preguntar en el foro para aclarar dudas.
+Con esto finalizo la explicación. Espero haberlo hecho de la forma más clara posible, en caso contrario preguntar en el foro para aclarar dudas.
 
 Muchas gracias a todos y saludos.
